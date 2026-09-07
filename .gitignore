@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local Python environments
+venv/
+.venv/
+.venvc/
+
+# Node / frontend dependencies
+node_modules/
+frontend/node_modules/
+.pnpm-store/
+
+# Frontend build output
+build/
+dist/
+frontend/build/
+frontend/dist/
+
+# Environment and secrets
+.env
+.env.*
+
+# Downloaded local model folders and caches
+models/
+model/
+local_models/
+downloaded_models/
+hf_cache/
+huggingface_cache/
+.cache/huggingface/
+
+# Hugging Face / LLM model weights
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth

@@ -1,0 +1,26 @@
+{
+  "benchmark_started_utc": "2026-08-28T21:34:53.898166+00:00",
+  "source_project": "/Users/hasanalbanna/Desktop/ss2026/Hardware for nn Seminar/SANZI_CODES",
+  "original_benchmark_results": "/Users/hasanalbanna/Desktop/ss2026/Hardware for nn Seminar/SANZI_CODES/benchmark_results.csv",
+  "prompt": "Explain local language model inference on a personal computer in a short paragraph.",
+  "settings": {
+    "seed": 42,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_output_tokens": 150
+  },
+  "runs_per_configuration": 5,
+  "device_requested": "Apple M1 / MPS",
+  "platform": "macOS-26.5-arm64-arm-64bit",
+  "python": "3.11.1",
+  "torch": "2.12.0",
+  "transformers": "5.15.0",
+  "kernels": "0.16.0",
+  "observations": [
+    "Qwen1.5-0.5B-Chat / FP16 had a throughput run at least 15% away from its configuration mean.",
+    "Qwen1.5-0.5B-Chat / 8-bit Metal had a throughput run at least 15% away from its configuration mean.",
+    "Llama-3.2-1B-Instruct / FP16 had a throughput run at least 15% away from its configuration mean.",
+    "Llama-3.2-1B-Instruct / 8-bit Metal had a throughput run at least 15% away from its configuration mean.",
+    "Llama-3.2-1B-Instruct / 4-bit Metal had a throughput run at least 15% away from its configuration mean."
+  ]
+}
