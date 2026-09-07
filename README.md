@@ -253,3 +253,6 @@ SANZI was developed and tested on a 2020 MacBook Air with:
 - Hugging Face Transformers
 
 Both supported models were successfully tested with FP16, 8-bit Metal, and 4-bit Metal in the browser GUI and CLI.
+
+## License: 
+All rights reserved. This repository is shared for academic and portfolio purposes. Reuse, redistribution, or modification is not permitted without permission.
