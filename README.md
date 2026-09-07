@@ -2,6 +2,11 @@
 
 SANZI is a local chatbot for running small language models on Apple Silicon. It includes a browser GUI and a separate terminal CLI, and runs model inference locally.
 
+## Preview
+
+![SANZI GUI](docs/images/sanzi-gui.png)
+
+
 Supported models:
 
 - `Llama-3.2-1B-Instruct`
